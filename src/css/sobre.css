@@ -1,0 +1,146 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(235, 217, 139, 0.5);
+    height: 100vh;
+    width: 100vw; 
+    display: flex; 
+    justify-content: flex-end;
+    visibility: hidden;
+}
+
+.secLateral {
+    background-color:#179D78;
+    width: 15%;
+}
+
+.menu {
+    display: flex;
+    flex-flow: column;
+    text-align: right;
+    height: 100px;
+    padding-top: 15px;
+    padding-right: 20px;
+    gap: 15px
+}
+
+.menu a {
+    color: #fff;
+    font-size: 17px;
+
+}
+
+.menu a:hover {
+    border-right: 3px solid  #FFD346;
+    text-shadow: 2px 2px 5px #fff;
+    
+}
+
+.fecharModal {
+    margin: 10px;
+    padding: 4px 9px;
+    border-radius: 20px;
+    border: 1px double #179D78;
+    background: #179D78;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;  
+}
+
+.fecharModal:hover {
+    border: 1px double  #FFD346;
+    cursor: pointer;
+}
+
+.modal.visivel {
+    visibility: visible;
+}
+body {
+    background-image: url(../img/paginaSobre.png);
+    background-size: cover;
+    background-position: center;
+}
+.cabecalho {
+    max-width: 1440px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;  
+}
+
+.ilha {
+    width: 65px;
+    margin-left: 30px;
+    margin-top: -20px;
+
+}
+
+h1 {
+    margin-top: 25px;
+    color: #179D78;
+    font-style: italic;
+    text-shadow: 2px 2px 2px black;
+    cursor: default;
+}
+
+.botaoModal {
+    background: #179D78;
+    padding: 5px 10px;
+    border-radius: 30px;
+    font-size: 25px;
+    margin-right: 30px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+    color: #FFD346;
+}
+
+.conteudo {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.fotoBanda {
+    max-width: 400px;
+    border-radius: 10px;
+    border: 3px solid #179D78;
+}
+
+.descricao {
+    border: 3px solid #179D78;
+    padding: 10px;
+    max-width: 300px;
+    border-radius: 20px;
+    background-color: rgba(144,90,23, 0.9);
+    font-weight: 400;
+    color: #fff;
+    text-align: justify;
+}
+
+.section {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 10px;
+}
+
+strong {
+    color: #000;
+    font-size: 17px;
+    text-shadow: 2px 2px 2px #fff;
+}
+
+strong a {
+    color: #179D78;
+}
+
+strong a:hover{
+    border-bottom: 3px solid rgb(144,90,23);
+}

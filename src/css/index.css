@@ -1,0 +1,127 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(235, 217, 139, 0.5);
+    height: 100vh;
+    width: 100vw; 
+    display: flex; 
+    justify-content: flex-end;
+    visibility: hidden;
+}
+
+.secLateral {
+    background-color:#7098A6;
+    width: 15%;
+}
+
+.menu {
+    display: flex;
+    flex-flow: column;
+    text-align: right;
+    height: 100px;
+    padding-top: 15px;
+    padding-right: 20px;
+    gap: 15px
+}
+
+.menu a {
+    color: #fff;
+    font-size: 17px;
+
+}
+
+.menu a:hover {
+    border-right: 3px solid rgb(235, 217, 139);
+    text-shadow: 2px 2px 5px #fff;
+    
+}
+
+.fecharModal {
+    margin: 10px;
+    padding: 4px 9px;
+    border-radius: 20px;
+    border: 1px double #7098A6;
+    background: #7098A6;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;  
+}
+
+.fecharModal:hover {
+    border: 1px double rgb(235, 217, 139);
+    cursor: pointer;
+}
+
+.modal.visivel {
+    visibility: visible;
+}
+
+body {
+    background-image: url(../img/pagInicial.png);
+    background-size: cover;
+    background-position: center;
+    
+
+}
+
+.cabecalho {
+    max-width: 1440px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    
+}
+
+.ilha {
+    width: 65px;
+    margin-left: 30px;
+    margin-top: -20px;
+
+}
+
+h1 {
+    margin-top: 20px;
+    color: rgb(235, 217, 139);
+    font-style: italic;
+    text-shadow: 2px 2px 2px black;
+    cursor: default;
+}
+
+.botaoModal {
+    background: rgb(235, 217, 139);
+    padding: 5px 10px;
+    border-radius: 30px;
+    font-size: 25px;
+    margin-right: 30px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.conteudoPrincipal {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.banda {
+    max-width: 650px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 2px solid rgb(235, 217, 139);
+}
+
+.textoApresentacao {
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 2px 1px 2px #000;
+    border-bottom: 2px solid  rgb(235, 217, 139);
+}

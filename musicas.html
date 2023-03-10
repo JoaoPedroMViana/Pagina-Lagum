@@ -7,11 +7,14 @@
     <title>Músicas</title>
     <link rel="shortcut icon" href="./src/img/icone.ico" type="image/x-icon">
     <link rel="stylesheet" href="./src/css/reset.css">
-    
-
+    <link rel="stylesheet" href="./src/css/musicas.css">
 </head>
 
-<body>
+<body class="corpo">
+
+    <div class="back">
+     <img src="./src/img/paginaMusicas.png" alt="Plano de fundo">
+    </div>
 
     <div class="modal">
         <section class="secLateral">
@@ -23,6 +26,7 @@
             </ul>
         </section>
     </div>
+
     
     <header class="cabecalho">
         <div class="logo">
@@ -33,28 +37,28 @@
     </header>
 
     <main class="conteudo">
-        <div>
+        <div class="olhaBela">
             <p>Olha Bela</p>
             <img class="fotoMusica" src="./src/img/olhaBela.jpg" alt="Foto ilustrativa da música 'Olha bela'">
-            <audio controls controlslist="nodownload">
+            <audio controls controlslist="nodownload" >
             <source src="./src/audio/Lagum - Olha Bela.mp3" type="audio/mpeg">
             </audio>
         </div>
-        <div>
+        <div class="oi">
             <p>Oi</p>
             <img class="fotoMusica" src="./src/img/oi.jpg" alt="Foto ilustrativa da música 'oi'">
             <audio controls controlslist="nodownload">
             <source src="./src/audio/Lagum - Oi.mp3" type="audio/mpeg">
             </audio>
         </div>
-        <div>
+        <div class="hojeEuQueroMePerder">
             <p>Hoje eu quero me perder</p>
             <img class="fotoMusica" src="./src/img/hojeEuQueroMePerder.jpg" alt="Foto ilustrativa da música 'Hoje eu quero me perder'">
             <audio controls controlslist="nodownload">
             <source src="./src/audio/Lagum - Hoje Eu Quero Me Perder.mp3" type="audio/mpeg">
             </audio>
         </div>
-        <div>
+        <div class="andarSozinho">
             <p>Andar sozinho</p>
             <img class="fotoMusica" src="./src/img/andarSozinho].jpg" alt="Foto ilustrativa da música 'Andar sozinho'">
             <audio controls controlslist="nodownload">
@@ -62,6 +66,7 @@
             </audio>
         </div>
     </main>
+    <script src="./src/js/modal.js"></script>
 </body>
 
 </html> 

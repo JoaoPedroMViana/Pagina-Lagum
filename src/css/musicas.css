@@ -1,0 +1,197 @@
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(160, 196, 120, 0.5);
+    height: 100vh;
+    width: 100vw; 
+    display: flex; 
+    justify-content: flex-end;
+    visibility: hidden;
+}
+
+.secLateral {
+    background-color:#FFCD2E;
+    width: 15%;
+}
+
+.menu {
+    display: flex;
+    flex-flow: column;
+    text-align: right;
+    height: 100px;
+    padding-top: 15px;
+    padding-right: 20px;
+    gap: 15px
+}
+
+.menu a {
+    color: #fff;
+    font-size: 17px;
+
+}
+
+.menu a:hover {
+    border-right: 3px solid  #54A464;
+    text-shadow: 2px 2px 5px #fff;
+    
+}
+
+.fecharModal {
+    margin: 10px;
+    padding: 4px 9px;
+    border-radius: 20px;
+    border: 1px double #FFCD2E;
+    background:#FFCD2E;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;  
+}
+
+.fecharModal:hover {
+    border: 1px double #54A464;
+    cursor: pointer;
+}
+
+.modal.visivel {
+    visibility: visible;
+}
+
+.back img {
+    max-width: 100vw;
+    position: fixed;
+    z-index: -2;
+}
+.back::after {
+    content: " ";
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: -1;
+    
+}
+
+.cabecalho {
+    max-width: 1440px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;  
+}
+
+.ilha {
+    width: 65px;
+    margin-left: 30px;
+    margin-top: -20px;
+}
+
+h1 {
+    margin-top: 25px;
+    color:  #FFD346;
+    font-style: italic;
+    text-shadow: 2px 2px 2px black;
+    cursor: default;
+}
+
+.botaoModal {
+    background: #496CBE;
+    padding: 5px 10px;
+    border-radius: 30px;
+    font-size: 25px;
+    margin-right: 30px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+.conteudo {
+    max-width: 100vw;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo div{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    margin-top: 80px;
+}
+
+.conteudo .fotoMusica{
+    max-width: 500px;
+    border-radius: 20px;
+    
+}
+
+.conteudo p {
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    color: #fff;
+    text-shadow: 2px 2px 2px black;
+}
+
+.conteudo .olhaBela p {
+    background: #FFD346;
+}
+.conteudo .olhaBela img {
+    border: 2px solid #FFD346;
+}
+.conteudo .olhaBela audio {
+    border-radius: 30px;
+    border: 2px solid #FFD346;
+}
+
+.conteudo .oi p {
+    background: #496CBE;
+}
+.conteudo .oi img {
+    border: 2px solid #496CBE;
+}
+.conteudo .oi audio {
+    border-radius: 30px;
+    border: 2px solid #496CBE;
+}
+
+.conteudo .hojeEuQueroMePerder p {
+    background: #a943b3;
+}
+.conteudo .hojeEuQueroMePerder img {
+    border: 2px solid #a943b3;
+}
+.conteudo .hojeEuQueroMePerder audio {
+    border-radius: 30px;
+    border: 2px solid  #a943b3;
+}
+
+.conteudo .andarSozinho p {
+    background: #970519;
+
+}
+.conteudo .andarSozinho img {
+    border: 2px solid#970519;
+}
+.conteudo .andarSozinho audio {
+    border-radius: 30px;
+    border: 2px solid #970519;
+}
+
+
+.corpo.noScroll {
+    overflow: hidden;
+}

@@ -36,9 +36,7 @@
    font-size: 100%;
    text-shadow: 2px 2px 2px #000;
 }
-
 }
-
 
 @media (max-width:600px){
 
@@ -71,7 +69,7 @@ body {
 .menu {
    position: absolute;
    left: 27%;
-   top: 15%;
+   top: 11%;
    display: flex;
    flex-flow: row;
    max-width: 100vw;
